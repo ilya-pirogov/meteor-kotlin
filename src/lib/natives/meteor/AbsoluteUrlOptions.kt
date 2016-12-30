@@ -1,7 +1,7 @@
 package lib.natives.meteor
 
 
-data class AbsoluteUrlOptions(
+class AbsoluteUrlOptions(
         /**
          * Create an HTTPS URL.
          */

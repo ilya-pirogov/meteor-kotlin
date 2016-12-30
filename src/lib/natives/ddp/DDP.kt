@@ -1,12 +1,12 @@
 @file:Suppress("unused")
+@file:JsModule("meteor/ddp-client")
 
 package lib.natives.ddp
 
 import lib.natives.meteor.Meteor
 
 
-@native
-object DDP {
+external object DDP {
     /**
      * Connect to the server of a different Meteor application to subscribe to its document sets
      * and invoke its remote methods.

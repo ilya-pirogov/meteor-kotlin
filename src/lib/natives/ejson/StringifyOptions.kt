@@ -2,7 +2,6 @@
 
 package lib.natives.ejson
 
-
 class StringifyOptions(
         /**
          * Indents objects and arrays for easy readability. When true, indents by 2 spaces; when an integer,
@@ -15,3 +14,4 @@ class StringifyOptions(
          */
         var canonical: Boolean = false
 )
+

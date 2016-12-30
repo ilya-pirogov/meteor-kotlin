@@ -1,10 +1,9 @@
 @file:Suppress("unused")
+@file:JsModule("meteor/ejson")
 
 package lib.natives.ejson
 
-
-@native
-object EJSON {
+external object EJSON {
     /**
      * Parse a string into an EJSON value. Throws an error if the string is not valid EJSON.
      *

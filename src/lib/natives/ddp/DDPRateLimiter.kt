@@ -1,4 +1,5 @@
 @file:Suppress("unused")
+@file:JsModule("meteor/ddp-client")
 
 package lib.natives.ddp
 
@@ -6,8 +7,7 @@ import lib.annotation.ServerSide
 
 
 @ServerSide
-@native
-object DDPRateLimiter {
+external object DDPRateLimiter {
     /**
      * Add a rule that matches against a stream of events describing method or subscription attempts.
      * Each event is an object with the following properties:
